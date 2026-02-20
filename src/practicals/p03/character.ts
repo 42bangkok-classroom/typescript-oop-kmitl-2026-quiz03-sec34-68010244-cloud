@@ -2,7 +2,7 @@ export class Character {
     public name: string = ""
     public health: number = 100
 
-    constructor(name: string = "", health: number) {
+    constructor(name: string = "", health: number = 100) {
         this.name = name
         this.health = health
     }
