@@ -12,7 +12,7 @@ export class User {
     setLastname(lastname:string){
         this.lastname = lastname
     }
-    
+
     getFullName() {
         return  `${this.firstname} ${this.lastname}`
     }
@@ -22,7 +22,7 @@ export class User {
     }
 
     getAge(){
-        return `${this.age}`
+        return this.age
     }
 
     
