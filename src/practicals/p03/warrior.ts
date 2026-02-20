@@ -4,7 +4,7 @@ import { Character } from "./character";
 export class Warrior extends Character {
   public weapon: string = ""
   
-  constructor(name: string = "", weapon: string = "", health: number = 100) {
+  constructor(name: string, weapon: string, health: number = 100) {
     super(name, health);
     this.weapon = weapon;
   }
