@@ -5,15 +5,24 @@ export class User {
     static BIRTH_YEAR = 2000
 
 
-    setFirstname(){
+    setFirstname(firstname:string){
         this.firstname = firstname
     }
-    getFullName() {
 
+    setLastname(lastname:string){
+        this.lastname = lastname
+    }
+    
+    getFullName() {
+        return  `${this.firstname} ${this.lastname}`
+    }
+
+    setAge(age:number) {
+        this.age = age
     }
 
     getAge(){
-
+        return `${this.age}`
     }
 
     

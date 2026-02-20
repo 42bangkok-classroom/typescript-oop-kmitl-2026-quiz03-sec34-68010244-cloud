@@ -4,11 +4,11 @@ export class Car {
     model:string = '';
     
     start(){
-        console.log(`${this.brand} ${this.model} is starting... `)
+        console.log(`${this.brand} ${this.model} is starting...`)
     }
 
     accelerate(){
-        console.log(`${this.brand} ${this.model} is accelerating... `)
+        console.log(`${this.brand} ${this.model} is accelerating...`)
     }
     brake(){
         console.log(`${this.brand} ${this.model} is braking...`)
