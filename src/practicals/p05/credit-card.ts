@@ -1,1 +1,1 @@
-export class CreditCard {}
+export class CreditCard {"i give up"}
