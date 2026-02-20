@@ -14,7 +14,7 @@ export class Warrior extends Character {
   }
 
   receiveDamage(damage: number = 0) {
-    let current = this.health
+    const current = this.health
         this.health = current - (damage - damage*0.1) //percent
   }
 }
